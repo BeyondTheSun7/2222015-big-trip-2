@@ -17,6 +17,7 @@
     "start": "webpack serve --mode development --open"
   },
   "devDependencies": {
+    "@babel/preset-env": "7.20.2",
     "copy-webpack-plugin": "11.0.0",
     "eslint": "7.32.0",
     "eslint-config-htmlacademy": "5.0.0",
@@ -31,7 +32,6 @@
     "@babel/plugin-proposal-class-properties": "7.16.0",
     "@babel/plugin-proposal-nullish-coalescing-operator": "7.16.0",
     "@babel/plugin-proposal-optional-chaining": "7.16.0",
-    "@babel/preset-env": "7.20.2",
     "babel-loader": "8.2.3",
     "css-loader": "6.5.1",
     "dayjs": "1.10.7",
