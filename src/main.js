@@ -22,7 +22,7 @@ const pointsModel = new PointsModel({
 const filterModel = new FilterModel();
 
 const filtersPresenter = new FilterPresenter({
-  filtersContainer: filtersContainer, 
+  filtersContainer: filtersContainer,
   pointsModel: pointsModel,
   filterModel: filterModel,
 });
